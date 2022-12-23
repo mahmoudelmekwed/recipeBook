@@ -9,7 +9,7 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   @Output() selectedOne = new EventEmitter<Recipe>();
   recipes : Recipe[] = [
-    new Recipe('A test' , 'this is a test', 'https://media.gettyimages.com/id/157482029/photo/stack-of-books.jpg?s=612x612&w=gi&k=20&c=_Yaofm8sZLZkKs1eMkv-zhk8K4k5u0g0fJuQrReWfdQ=')
+    new Recipe('A test' , 'this is a test', 'https://img.freepik.com/free-vector/hand-drawn-recipe-book-template_52683-81934.jpg?w=740&t=st=1671797134~exp=1671797734~hmac=d968bf72d8013f3bf20a0b9d0cdc0bd82e4c0f3c5d20a57375d77953b1d46614')
   ];
 
   constructor() { }
